@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import players from "./players.json";
 import navScore from "./components/navScore";
 import Players from "./components/Player";
+import Scoreboard from "./components/navScore";
 
 // shuffle 
 function shuffle(array) {
@@ -39,7 +40,7 @@ class App extends Component {
       this.handleIncrement();
       // run the reshuffle function after each click
       this.makeShuffle();
-    } else if (this.state.score === 12) {
+    } else if (this.state.score === 9) {
       // alert player wins
       this.setState({
         showSuccess: 1,
@@ -83,15 +84,15 @@ class App extends Component {
           className="alert alert-danger"
           style={{ opacity: this.state.showAlert }}
         >
-          You clicked on this already, try again...
+          Nope!
           </div>
         <div
           className="alert alert-success"
           style={{ opacity: this.state.showSuccess }}
         >
-          Brilliant, you haven't clicked on duplicates!
+          Good job, looks like you know some hockey eh?
           </div>
-        <navScore
+        <Scoreboard
           title="Guess That NHL Player"
           score={this.state.score}
           topScore={this.state.topScore}

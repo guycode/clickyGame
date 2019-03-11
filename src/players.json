@@ -23,4 +23,24 @@
       "id": 5,
       "image": "http://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/2300.png&w=350&h=254",
       "name": "Brent Burns"
-    }]
+    },
+    {
+        "id": 6,
+        "image": "http://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3114.png&w=350&h=254",
+        "name": "Sidney Crosby"
+      },
+      {
+        "id": 7,
+        "image": "http://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3101.png&w=350&h=254",
+        "name": "Alex Ovechkin"
+      },
+      {
+        "id": 8,
+        "image": "http://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/5037.png&w=350&h=254",
+        "name": "Steven Stamkos"
+      },
+      {
+          "id": 9,
+          "image": "http://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3895074.png&w=350&h=254",
+          "name": "Connor McDavid"
+        }]

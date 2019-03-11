@@ -1,0 +1,63 @@
+h5,
+h6 {
+  display: inline;
+  cursor: default;
+  color: white;
+}
+
+h5 {
+  font-size: 2.5em;
+}
+
+h6:hover {
+  background-color: rgb(0, 214, 71);
+  display: inline;
+}
+
+.score {
+  margin-bottom: 10px;
+}
+
+
+.col-right {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.alert-danger {
+  font-family: "Noto Serif SC", serif;
+  text-transform: uppercase;
+  color: #fff;
+  /* display: inline; */
+  background-color: red !important;
+  border-radius: 0 !important;
+  border-color: none !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  cursor: default;
+  /* margin: auto; */
+}
+
+
+.alert-success {
+  font-family: "Noto Serif SC", serif;
+  text-transform: uppercase;
+  color: #fff;
+  /* display: inline; */
+  background-color: blue !important;
+  border-radius: 0 !important;
+  border-color: none !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  cursor: default;
+}
+
+
+#root {
+  background-image: url("");
+  background-color: #171f28;
+  padding-bottom: 30px;
+}
